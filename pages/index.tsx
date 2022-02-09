@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
-    <motion.div className="flex flex-col items-center justify-center min-h-screen py-2 text-7xl">
+    <motion.div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -30,7 +30,7 @@ export default function Home() {
             href="https://nextjs.org/docs"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="font-bold text-7xl">Documentation &rarr;</h3>
+            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
             <p className="mt-4 text-xl">
               Find in-depth information about Next.js features and API.
             </p>
