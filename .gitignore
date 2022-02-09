@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/studio/node_modules
 /.pnp
 .pnp.js
 
@@ -35,3 +36,9 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# repl history
+.node_repl_history
+
+# static
+out

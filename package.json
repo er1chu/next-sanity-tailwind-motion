@@ -8,6 +8,7 @@
   "dependencies": {
     "framer-motion": "^6.2.4",
     "groq": "^2.15.0",
+    "lerna": "^4.0.0",
     "next": "latest",
     "next-seo": "^5.1.0",
     "react": "^17.0.2",
