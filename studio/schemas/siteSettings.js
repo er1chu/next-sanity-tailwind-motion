@@ -19,13 +19,13 @@ export default {
       type: 'text',
       title: 'Description',
       description:
-        'Describe your portfolio for search engines and social media. (Keep under 155 characters).',
+        'Describe your site for search engines and social media. (Keep under 155 characters).',
     },
     {
       name: 'keywords',
       type: 'array',
       title: 'Keywords',
-      description: 'Add keywords that describes your portfolio.',
+      description: 'Add keywords that describes your site.',
       of: [{ type: 'string' }],
       options: {
         layout: 'tags',
@@ -33,7 +33,7 @@ export default {
     },
     {
       name: 'mainImage',
-      descrptiopn: 'Facebook recommends 1200x630 (will be auto resized)',
+      descrption: 'Facebook recommends 1200x630 (will be auto resized)',
       title: 'Image',
       type: 'figure',
     },
