@@ -33,7 +33,7 @@ export default {
     },
     {
       name: 'mainImage',
-      descrption: 'Facebook recommends 1200x630 (will be auto resized)',
+      description: 'Facebook recommends 1200x630 (will be auto resized)',
       title: 'Image',
       type: 'figure',
     },
