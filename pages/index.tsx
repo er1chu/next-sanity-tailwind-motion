@@ -7,7 +7,7 @@ export default function Home() {
     <motion.div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/static/favicon.ico" />
       </Head>
 
       <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center">
@@ -76,7 +76,11 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          <img
+            src="/static/vercel.svg"
+            alt="Vercel Logo"
+            className="h-4 ml-2"
+          />
         </a>
       </footer>
     </motion.div>
