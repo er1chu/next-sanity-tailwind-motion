@@ -18,3 +18,8 @@ npx create-next-app [project-name] -e https://github.com/er1chu/next-sanity-tail
 3.  Replace `projectId` and `dataset` in `client.ts` with the correct values from `sanity.json`
 
 4.  Run `yarn dev` or `npm run dev` in root folder.
+
+## To-do
+
+1. Sanity integration
+2. ???
